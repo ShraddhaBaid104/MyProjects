@@ -1,0 +1,26 @@
+[project]
+name = "bia"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "chromadb>=1.5.5",
+    "ipython>=9.11.0",
+    "langchain>=1.2.12",
+    "langchain-community>=0.4.1",
+    "langchain-openai>=1.1.11",
+    "langchain-pinecone>=0.2.13",
+    "numpy>=2.4.3",
+    "ollama>=0.6.1",
+    "openai>=2.28.0",
+    "pandas>=2.3.3",
+    "pandas-stubs~=2.3.3",
+    "pinecone-client>=6.0.0",
+    "python-dotenv>=1.2.2",
+    "pytube>=15.0.0",
+    "sentence-transformers>=5.3.0",
+    "streamlit>=1.55.0",
+    "tiktoken>=0.12.0",
+    "whisper>=1.1.10",
+]
